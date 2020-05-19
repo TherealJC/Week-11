@@ -73,26 +73,42 @@ d. Provide pseudocodes, diagrams and executable code. (in linkedlists.js file)
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 3. Explain in details JavaScript Recursion:
+
 a. Introduction to Recursion.
+Recursion is a concept (not a data structure) but a way that we solve a problem.
+We can use recursion with JavaScript in ways like recursive functions
+A recursive function is a function that calls itself until it doesn’t. And this technique is called recursion.
+
 b. What are the advantages and disadvantages using JavaScript Recursion?
+Advantages: Recursion can reduce time complexity. Recursion adds clarity and reduces the time needed to write and debug code. Recursion is better at tree traversal. 
+Disadvantages: 
+
 c. Which data structure stores you can Recursion algorithm?
+Stack. Because of its LIFO (Last In First Out) property it remembers its 'caller' so knows whom to return when the function has to return. Recursion makes use of system stack for storing the return addresses of the function calls.
+Every recursive function has its equivalent iterative (non-recursive) function. Even when such equivalent iterative procedures are written, explicit stack is to be used.
+
+Generally, recursive functions are used to break down a big problem into smaller ones. They are heavily used in the data structures like binary trees and graphs and algorithms such as binary search and quicksort.
+
+
 d. Provide Real world examples
-e. Provide pseudocodes, diagrams and executable code. (create a js file for executable code)
+I found this nice example online
+"The boss calls his secretary & says:"Get ready for d weekend, We r going on a business trip."
+The secretary calls husband & says:"Me & my boss r going on a business trip for 2 days so takecare of urself"
+The husband calls his girlfriend & says:"My wife is going on a business trip come home we can have fun"
+The girlfriend calls the boy to whom she gives tuition: "No tuition this weekend."
+The boy calls his father:"Dad, at last we can spend this weekend together."
+Dad (The boss) calls his secretary & says:"Business trip is cancelled.I'm going to spend weekend with my son"
+The secretary calls husband:"I won't be going"
+The husband calls his girlfriend:"I am sorry My wife is not going "
+The girlfriend calls boy:"You have tuition"
+Boy calls his father & says:"Sorry Dad, I've classes"
+The Dad calls his secretary.....(infinite recursion)"
 
+e. Provide pseudocodes, diagrams and executable code. (in Recursion.js)
 
-
-
-
-
-
-
-
-
-
-
-
-
+----------------------------------------------------------------------------------------------------------------------------------------------------
 
 References
 Amanda Fawcett (20/3/2020). Educative. "7 JavaScript data structures you must know". https://www.educative.io/blog/javascript-data-structures
  Victor S.Adamchik. (2009). Linked Lists. https://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html
+ JavaScript Tutorial Website. (2020). JavaScript Recursive Function. https://www.javascripttutorial.net/javascript-recursive-function/
